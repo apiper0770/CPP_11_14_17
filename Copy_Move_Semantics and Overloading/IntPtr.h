@@ -1,3 +1,4 @@
+
 #include "Integer.h"
 #include <iostream>
 #include <memory>
@@ -36,10 +37,4 @@ void CreateInteger(){
     Process2(std::move(p));
     std::cout << p2->GetValue() << std::endl;
     
-}
-
-int main(){
-    CreateInteger();
-    return 0;
-
 }

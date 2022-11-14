@@ -80,7 +80,6 @@ bool Integer::operator==(const Integer & a) const {
 }
 
 
-
 Integer Integer::operator+(const Integer & a) const {
 	Integer temp;
 	*temp.m_pInt = *m_pInt + *a.m_pInt;
