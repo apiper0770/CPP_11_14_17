@@ -38,4 +38,7 @@ public:
 	friend std::ostream & operator <<(std::ostream & out, const Integer &a);
 	friend std::istream & operator >> (std::istream &input, Integer &a);
 
+	//Type Conversion from Integer object to Primative type
+	explicit operator int();
+
 };

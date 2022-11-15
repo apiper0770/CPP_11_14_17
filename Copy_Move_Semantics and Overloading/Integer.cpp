@@ -106,6 +106,9 @@ std::istream & operator >> (std::istream &input, Integer &a) {
 	return input;
 }
 
+Integer::operator int(){
+	return *m_pInt;
+}
 
 
 
